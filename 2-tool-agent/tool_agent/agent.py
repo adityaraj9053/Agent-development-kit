@@ -1,7 +1,7 @@
 from datetime import datetime
 from google.adk.agents import Agent
 from google.adk.tools import google_search
-from litellm.proxy.mcp_tools import get_current_time
+# from litellm.proxy.mcp_tools import get_current_time
 
 def get_current_time() -> dict:
     """
